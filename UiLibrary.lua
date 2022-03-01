@@ -2075,6 +2075,7 @@ function Library:CreateWindow(WindowTitle)
         Position = UDim2.new(0, 8, 0, 8);
         Size = UDim2.new(1, -16, 0, 21);
         ZIndex = 1;
+        Name = "AYUDA4";
         Parent = MainSectionInner;
     });
 
@@ -2090,6 +2091,7 @@ function Library:CreateWindow(WindowTitle)
         BorderColor3 = Library.OutlineColor;
         Position = UDim2.new(0, 8, 0, 30);
         Size = UDim2.new(1, -16, 1, -38);
+        Name = "AYUDA41";
         ZIndex = 2;
         Parent = MainSectionInner;
     });
