@@ -1814,7 +1814,7 @@ do
         BackgroundColor3 = Color3.new(1, 1, 1);
         BorderSizePixel = 0;
         Position = UDim2.new(0, 1, 0, 1);
-        Size = UDim2.new(1, -2, 1, -2)
+        Size = UDim2.new(1, -2, 1, -2);
         ZIndex = 202;
         Parent = WatermarkInner;
     });
@@ -2007,7 +2007,6 @@ function Library:CreateWindow(WindowTitle)
         BorderSizePixel = 0;
         Position = UDim2.new(0, 175, 0, 50);
         Size = UDim2.new(0, 550, 0, 600);
-		--Name = "OuterFrame";
         Visible = false;
         ZIndex = 1;
         Parent = ScreenGui;
