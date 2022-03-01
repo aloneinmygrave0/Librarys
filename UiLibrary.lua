@@ -2007,6 +2007,7 @@ function Library:CreateWindow(WindowTitle)
         BorderSizePixel = 0;
         Position = UDim2.new(0, 175, 0, 50);
         Size = UDim2.new(0, 550, 0, 600);
+        Name = "AYUDA";
         Visible = false;
         ZIndex = 1;
         Parent = ScreenGui;
